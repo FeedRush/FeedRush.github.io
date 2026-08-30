@@ -1,2 +1,13 @@
-# FeedRush.github.io
-Astro marketing site for FeedRush
+# FeedRush
+
+Astro-only public marketing site for [FeedRush](https://github.com/FeedRush).
+
+## Development
+
+```sh
+npm ci --ignore-scripts
+npm test
+npm run build
+```
+
+The static site keeps public marketing separate from the user, organization, and Shared Auth surfaces.
